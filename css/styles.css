@@ -1,0 +1,108 @@
+body {
+    background-color: #0e0e0e;
+    max-height: 100vh;
+    margin: 0;
+}
+.wrapper{
+    
+    margin: 0 13% 0 13%;
+    border: 3vh solid white;
+    height: 100vh;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    background-color: #4a4f56;
+    
+}
+
+.tittle {
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #eb7e7f;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.subtittle {
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #eb7e7f;
+    margin-bottom: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: #3b3f45;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4vh;
+    width: 100%;
+}
+
+.fbutton {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #88839e;
+    border: 0;
+    padding: 0;
+}
+
+
+.fbutton:hover {
+    background-color: #625e77;
+    border-top: 0.5vh solid white;
+    border-bottom: 0.5vh solid white;
+}
+
+#checkbox {
+    float: left;
+    height: 3vh;
+    width: 3vh;
+}
+    
+input:checked + label {
+    color: #fc0;
+    text-decoration:line-through;
+
+}
+label{
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eb7e7f;
+    margin-bottom: 0;
+    float: left;
+    padding: 2% 0 0% 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.mbutton{
+    width: 100%;
+    height: 9vh;
+    background-color: #4a4f56;
+    color: white;
+    border: 0;
+    padding: 0;
+}
